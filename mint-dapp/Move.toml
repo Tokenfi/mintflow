@@ -1,0 +1,14 @@
+[package]
+name = "artis_mint"
+version = "1.0.0"
+authors = []
+
+[addresses]
+artis = "0x6d70ad15e8d051da9140f65ae2974125ff26edfde07ed48bd77cdaea87a954f6"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
