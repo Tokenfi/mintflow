@@ -30,6 +30,3 @@ pnpm-lock.yaml
 *.njsproj
 *.sln
 *.sw?
-
-# template related files
-example-collection/
