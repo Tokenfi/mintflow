@@ -1,13 +1,14 @@
-## Create Aptos Dapp Boilerplate Template
+## Create Aptos Dapp Fungible Asset Template
 
-The Boilerplate template provides a starter dapp with all necessary dapp infrastructure and a simple wallet info implementation.
+The Fungible Asset template provides an end-to-end Fungible Asset minting dapp with a beautiful pre-made UI users can quickly adjust and deploy into a live server.
 
+Read more about how to use the template [here](https://aptos.dev/create-aptos-dapp/templates/fungible-asset)
 
-## The Boilerplate template provides:
+## The Fungible Asset template provides 3 pages:
 
-- **Folder structure** - A pre-made dapp folder structure with a `frontend` and `move` folders.
-- **Dapp infrastructure** - All required dependencies a dapp needs to start building on the Aptos network.
-- **Wallet Info implementation** - Pre-made `WalletInfo` components to demonstrate how one can use to read a connected Wallet info.
+- **Public Mint Fungible Asset Page** - A page for the public to mint Fungible Assets.
+- **Create Fungible Asset page** - A page for creating new asset. This page is not accessible on production.
+- **My Fungible Assets page** - A page to view all the assets created under the current Move module (smart contract). This page is not accessible on production.
 
 ### What tools the template uses?
 
@@ -26,6 +27,7 @@ Some commands are built-in the template and can be ran as a npm script, for exam
 
 - `npm run move:init` - a command to initialize an account to publish the Move contract and to configure the development environment
 - `npm run move:publish` - a command to publish the Move contract
+- `npm run move:upgrade` - a command to upgrade the Move contract
 - `npm run move:test` - a command to run Move unit tests
 - `npm run move:compile` - a command to compile the Move contract
 - `npm run deploy` - a command to deploy the dapp to Vercel

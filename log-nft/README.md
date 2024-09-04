@@ -1,13 +1,14 @@
-## Create Aptos Dapp Boilerplate Template
+## Create Aptos Dapp Digital Asset Template
 
-The Boilerplate template provides a starter dapp with all necessary dapp infrastructure and a simple wallet info implementation.
+Digital Assets are the NFT standard for Aptos. The Digital Asset template provides an end-to-end NFT minting dapp with a beautiful pre-made UI users can quickly adjust and deploy into a live server.
 
+Read more about how to use the template [here](https://aptos.dev/create-aptos-dapp/templates/digital-asset)
 
-## The Boilerplate template provides:
+## The Digital Asset template provides 3 pages:
 
-- **Folder structure** - A pre-made dapp folder structure with a `frontend` and `move` folders.
-- **Dapp infrastructure** - All required dependencies a dapp needs to start building on the Aptos network.
-- **Wallet Info implementation** - Pre-made `WalletInfo` components to demonstrate how one can use to read a connected Wallet info.
+- **Public Mint NFT Page** - A page for the public to mint NFTs.
+- **Create Collection Page** - A page for creating new NFT collections. This page is not accessible on production.
+- **My Collections Page** - A page to view all the collections created under the current Move module (smart contract). This page is not accessible on production.
 
 ### What tools the template uses?
 
@@ -26,6 +27,7 @@ Some commands are built-in the template and can be ran as a npm script, for exam
 
 - `npm run move:init` - a command to initialize an account to publish the Move contract and to configure the development environment
 - `npm run move:publish` - a command to publish the Move contract
+- `npm run move:upgrade` - a command to upgrade the Move contract
 - `npm run move:test` - a command to run Move unit tests
 - `npm run move:compile` - a command to compile the Move contract
 - `npm run deploy` - a command to deploy the dapp to Vercel
