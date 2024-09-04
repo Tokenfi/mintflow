@@ -4,8 +4,8 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-launchpad_addr = '_'
-initial_creator_addr = "_"
+launchpad_addr ="0x905afc2e15d713f734acaad426dd5a56230d31d81d762aa0fe271d1d76e495e3"
+initial_creator_addr ="0x905afc2e15d713f734acaad426dd5a56230d31d81d762aa0fe271d1d76e495e3"
 
 [dependencies]
 AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework"}
